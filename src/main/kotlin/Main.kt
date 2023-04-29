@@ -1,7 +1,15 @@
 fun main(args: Array<String>) {
     println("Hello World!")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    val customerName = "Douglas Silva"
+    val accountNumber = 1234
+    var amount = 0.0
+
+    if (customerName.lowercase().contains("douglas")) {
+        amount += 2.5
+    }
+
+    println("Hello, ${customerName.uppercase()}")
+    println("Your account is: $accountNumber")
+    println("As your name is nice, your initial amount is: $amount")
 }
