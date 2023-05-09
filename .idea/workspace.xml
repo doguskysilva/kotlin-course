@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0889d173-8cd1-4196-ae01-3184b738beef" name="Changes" comment="">
+    <list default="true" id="0889d173-8cd1-4196-ae01-3184b738beef" name="Changes" comment="separeted conditional tests">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Account.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Operations.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -12,6 +14,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,7 +101,30 @@
       <option name="presentableId" value="Default" />
       <updated>1682740141160</updated>
     </task>
+    <task id="LOCAL-00001" summary="separeted conditional tests">
+      <created>1683326037231</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683326037231</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="separeted conditional tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="separeted conditional tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
