@@ -1,14 +1,14 @@
-class Account {
-    var customarName = ""
-    var number = 0
-    private var balance = 0.0
+class Account(
+    private val customerName: String,
+    private val number: Int
+) {
+    var balance = 0.0
+        private set
 
-    fun getBalance(): Double {
-        return this.balance
-    }
+    val identifier = "${this.customerName} - ${this.number}"
 
     fun deposit(amount: Double) {
-        this.balance += amount
+        if (isPositive(amount)) this.balance += amount
     }
 
     fun withdraw(amount: Double) {

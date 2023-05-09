@@ -1,24 +1,26 @@
 
-fun main(args: Array<String>) {
+fun main() {
     println("Hello World, Welcome to ByteBank!")
 
-    val account1 = Account()
+    val account1 = Account("Douglas", number = 3456)
     account1.deposit(30.0)
+    account1.deposit(-30.0)
 
-    val account2 = Account()
+    val account2 = Account(customerName = "Maysa", 7890)
     account2.deposit(10.0)
 
     val bankOperations = Operations()
 
     val operationTransfer = bankOperations.transfer(account1, account2, 10.0)
     if (operationTransfer) {
-        println("New amount: ${account2.getBalance()}")
+        println("New amount to ${account2.identifier}: ${account2.balance}")
+        println("New amount to ${account1.identifier}: ${account1.balance}")
     } else {
-        println("Unavailable amount in account 1 to transfer")
+        println("Unavailable amount in ${account1.identifier} account to transfer")
     }
 
-    //println("Your amount is ${account1.amount}")
-    // loopTest(5)
+    println("\n")
+    loopTest(1)
 }
 
 fun loopTest(totalAccounts: Int) {
