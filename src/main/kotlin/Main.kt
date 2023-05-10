@@ -9,9 +9,8 @@ fun main() {
     val account2 = Account(customerName = "Maysa", 7890)
     account2.deposit(10.0)
 
-    val bankOperations = Operations()
 
-    val operationTransfer = bankOperations.transfer(account1, account2, 10.0)
+    val operationTransfer = Operations.transfer(account1, account2, 10.0)
     if (operationTransfer) {
         println("New amount to ${account2.identifier}: ${account2.balance}")
         println("New amount to ${account1.identifier}: ${account1.balance}")
