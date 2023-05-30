@@ -1,3 +1,7 @@
+package models
+
+import isPositive
+
 class Account(
     private val customerName: String,
     private val number: Int
